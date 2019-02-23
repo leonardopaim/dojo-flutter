@@ -47,5 +47,3 @@ Outro ponto que Vale ser destacado é que existem rumores de que a Google tem pl
  - [x] Material Icon Theme (Pacote de ícones) - https://github.com/PKief/vscode-material-icon-theme
  - [x] vscode-icons (Pacote de ícones) - https://github.com/vscode-icons/vscode-icons
  - [x] Bracket Pair Colorizer 2 (Colorir pares de chaves, parênteses ou colchetes) - https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
-
- 

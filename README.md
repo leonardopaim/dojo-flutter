@@ -48,3 +48,4 @@ Outro ponto que Vale ser destacado é que existem rumores de que a Google tem pl
  - [x] vscode-icons (Pacote de ícones) - https://github.com/vscode-icons/vscode-icons
  - [x] Bracket Pair Colorizer 2 (Colorir pares de chaves, parênteses ou colchetes) - https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
 
+ 

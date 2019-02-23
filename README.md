@@ -37,7 +37,6 @@ Outro ponto que Vale ser destacado é que existem rumores de que a Google tem pl
  - [x] Página oficial do Dart: https://www.dartlang.org/
  - [x] Página de pacotes para o Flutter: https://pub.dartlang.org/flutter
  - [x] Repositório Flutter no Github: https://github.com/flutter/flutter
-<<<<<<< HEAD
 
  ## Plugins VSCode
 
@@ -48,6 +47,4 @@ Outro ponto que Vale ser destacado é que existem rumores de que a Google tem pl
  - [x] Material Icon Theme (Pacote de ícones) - https://github.com/PKief/vscode-material-icon-theme
  - [x] vscode-icons (Pacote de ícones) - https://github.com/vscode-icons/vscode-icons
  - [x] Bracket Pair Colorizer 2 (Colorir pares de chaves, parênteses ou colchetes) - https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
-=======
- - [x] DartPad (rodar código Dart online): https://dartpad.dartlang.org/
->>>>>>> 6225f4704f93bb203ef4848fafd160c55ddecb83
+

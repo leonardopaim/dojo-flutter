@@ -33,40 +33,22 @@ Outro ponto que Vale ser destacado é que existem rumores de que a Google tem pl
 
 ## Links Oficiais
 
- - [x] Página oficial do Flutter: https://flutter.io/
+ - [x] Página oficial do Flutter: https://flutter.dev/
  - [x] Página oficial do Dart: https://www.dartlang.org/
  - [x] Página de pacotes para o Flutter: https://pub.dartlang.org/flutter
  - [x] Repositório Flutter no Github: https://github.com/flutter/flutter
 
- ## Plugins VSCode
-
- - [x] Pluggin Flutter - https://github.com/Dart-Code/Flutter
- - [x] Pluggin Dart - https://github.com/Dart-Code/Dart-Code
- - [x] Pubspec Assist (Baixar pacotes Dart) - https://github.com/jeroen-meijer/pubspec-assist
- - [x] Darcula IntelliJ Theme (Tema das fontes do editor) - https://github.com/kevinvn1709/vscode-dracula-color-theme
- - [x] Material Icon Theme (Pacote de ícones) - https://github.com/PKief/vscode-material-icon-theme
- - [x] vscode-icons (Pacote de ícones) - https://github.com/vscode-icons/vscode-icons
- - [x] Bracket Pair Colorizer 2 (Colorir pares de chaves, parênteses ou colchetes) - https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
-
-
+ 
 # Codificação
 
- **1. Criação do Projeto:**  
-
- - Utilizando o VSCode, basta abrir a paleta de comandos (CTRL+Shift+P) e digitar "flutter". Nas opções que aparecem, selecione "Flutter: New Project". 
- - Será solicitado informar o nome do projeto. O nome não poderá ter espaços e nem caracteres especiais. Para separar palavras a recomendação é a utilização do Underline.
- - Em seguida selecione o local do computador onde o projeto ficará salvo.
- - Aguardar até que os comandos sejam finalizados e o projeto seja criado.
- - Rodar o projeto com um dispositivo conectado ao PC e aguardar até que ele apareça na tela.
-
-**2. Estrutura do projeto:**
+**1. Estrutura do projeto:**
 
  - Pastas de cada plataforma. Onde ficam os arquivos particulares de cada uma delas. Também existem nos projetos do React Native.
  - Pasta "Lib", onde ficam os arquivos ".dart" que são codificados.
  - Arquivo "main.dart" que é o principal arquivo do código e contém o entry point da aplicação.
  - Arquivo "pubspec.yaml" que é o arquivo que contém a configuração do projeto e os arquivos que ele utilizará.
 
- **3. Widgets:**
+ **2. Widgets:**
 
 - Tudo no Flutter é Widget. Com a abordagem de modularização foi criado este termo para representar cada componente do Framework. Assim temos como exemplos de Widget's um texto, um botão, uma linha, uma coluna, um estilo de texto e também a própria aplicação em si.
 

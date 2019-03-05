@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:lista_tarefas/data/data.dart';
 
@@ -14,12 +13,13 @@ class _HomeState extends State<Home> {
   List _lista = [];
   Map<String, dynamic> _lastRemoved;
   int _lastRemovedPos;
+  Data banco = Data();
 
   @override
   void initState() {    
     super.initState();
 
-    Data().readData().then((data){
+    banco.readData().then((data){
       setState(() {
         _lista = json.decode(data);  
       });
@@ -55,7 +55,7 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
-             
+
               //* Botão de Adicionar a tarefa
               RaisedButton(
                 color: Theme.of(context).primaryColor,
@@ -68,14 +68,14 @@ class _HomeState extends State<Home> {
                     novoItem["ok"] = false;
                     _lista.add(novoItem);
 
-                    Data().saveData(_lista);
+                    banco.saveData(_lista);
                   });                  
                 },  
               )
             
             ],
           ),
-         
+
           //* Lista das Tarefas
           Expanded(
             child: ListView.builder(
@@ -117,7 +117,7 @@ class _HomeState extends State<Home> {
         onChanged: (c){
           setState(() {
             _lista[index]["ok"] = c;
-            Data().saveData(_lista); 
+            banco.saveData(_lista); 
           });
         },                      
       ),
@@ -128,7 +128,7 @@ class _HomeState extends State<Home> {
           _lastRemovedPos = index;
           _lista.removeAt(index);
 
-          Data().saveData(_lista);
+          banco.saveData(_lista);
 
           final snack = new SnackBar(
             content: new Text("Tarefa \"${_lastRemoved["title"]}\" removida!"),
@@ -137,7 +137,7 @@ class _HomeState extends State<Home> {
               onPressed: (){
                 setState(() {
                   _lista.insert(_lastRemovedPos, _lastRemoved);
-                  Data().saveData(_lista);
+                  banco.saveData(_lista);
                 });
               },
             ),
